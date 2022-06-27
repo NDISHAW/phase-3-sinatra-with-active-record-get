@@ -22,7 +22,4 @@ task :server do
   exec "bundle exec rerun -b 'rackup config.ru'"
 end
 
-# desc "Start the server"
-# task :server do  
-#     exec "bundle exec rackup config.ru"
-# end
+desc "Start the server"

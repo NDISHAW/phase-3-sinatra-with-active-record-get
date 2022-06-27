@@ -17,12 +17,7 @@ task :server do
     return
   end
 
-  # rerun allows auto-reloading of server when files are updated
-  # -b runs in the background (include it or binding.pry won't work)
-  exec "bundle exec rerun -b 'rackup config.ru'"
-end
-
-# desc "Start the server"
-# task :server do  
-#     exec "bundle exec rackup config.ru"
+#   # rerun allows auto-reloading of server when files are updated
+#   # -b runs in the background (include it or binding.pry won't work)
+#   exec "bundle exec rerun -b 'rackup config.ru'"
 # end
